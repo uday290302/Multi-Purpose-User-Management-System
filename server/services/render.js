@@ -4,7 +4,7 @@ const axios = require('axios');
 
 exports.homeRoutes = (req, res) => {
     // Make a get request to /api/users
-    axios.get('http://localhost:4000/api/users')
+    axios.get('http:user-management-system-8or1.onrender.com/api/users')
         .then(function(response){
             console.log(response)
             res.render('index', { users : response.data });
