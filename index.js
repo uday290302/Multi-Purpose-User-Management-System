@@ -6,7 +6,7 @@ const bodyparser  = require("body-parser");
 const path = require('path');
 
 const app = express()
-dotenv.config({path: 'config.env'})
+dotenv.config({path: '.env'})
 const PORT = process.env.PORT 
 //log requests
 app.use(morgan('tiny'));
