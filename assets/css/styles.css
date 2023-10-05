@@ -230,3 +230,13 @@ table{
     background-color: var(--dark);
     color: var(--border);
 }
+
+
+
+#footer  nav{
+    position: fixed;
+    bottom :0;
+    background-color: #16db93; 
+    padding: 1em 0;
+    width: 100%;
+}
